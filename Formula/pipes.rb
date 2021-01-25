@@ -9,7 +9,8 @@ class Pipes < Formula
   depends_on :xcode => ["12.0", :build]
 
   def install
-    system "make", "install"
+    system "make"
+    bin.install ".build/release/CLI" => "pipes"
   end
 
   test do
