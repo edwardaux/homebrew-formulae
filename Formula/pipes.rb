@@ -10,7 +10,7 @@ class Pipes < Formula
 
   def install
     system "make"
-    bin.install ".build/release/CLI" => "pipes"
+    bin.install ".build/release/CLI" => "pipe"
   end
 
   test do
