@@ -1,9 +1,9 @@
 class Pipes < Formula
   desc "Swift implementation of CMS Pipelines - stream-based record processing"
   homepage "https://github.com/edwardaux/pipes"
-  url "https://github.com/edwardaux/Pipes/archive/1.1.0.tar.gz"
-  version "1.0.0"
-  sha256 "53b74deca4f52360dade646cf38ffd0ba85c1c49e2c4753c57ed5635e52e78f2"
+  url "https://github.com/edwardaux/Pipes/archive/1.2.0.tar.gz"
+  version "1.2.0"
+  sha256 "6023114d226d3ae3b3f60e4a88a397e83c7004b47a3de59faddfb4310b069d91"
   license "MIT"
 
   depends_on :xcode => ["12.0", :build]
